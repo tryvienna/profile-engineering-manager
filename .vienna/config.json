@@ -1,23 +1,58 @@
 {
   "version": 1,
   "name": "Engineering Manager",
-  "description": "Quick actions and tools for engineering managers — 1:1 prep, sprint retros, performance reviews, team metrics, and stakeholder communication.",
-  "author": { "name": "Vienna Team", "url": "https://tryvienna.com" },
-  "icon": "📊",
-  "tags": ["engineering-management", "leadership", "sprints", "1on1", "team"],
+  "description": "Quick actions and tools for engineering managers \u2014 1:1 prep, sprint retros, performance reviews, team metrics, and stakeholder communication.",
+  "author": {
+    "name": "Vienna Team",
+    "url": "https://tryvienna.com"
+  },
+  "icon": "\ud83d\udcca",
+  "tags": [
+    "engineering-management",
+    "leadership",
+    "sprints",
+    "1on1",
+    "team"
+  ],
   "plugins": [
-    { "id": "linear", "requirement": "recommended", "reason": "Sprint analytics and team velocity tracking with Linear" },
-    { "id": "profile_badge", "requirement": "recommended", "reason": "Shows active profile in the menu bar" }
+    {
+      "id": "linear",
+      "requirement": "recommended",
+      "reason": "Sprint analytics and team velocity tracking with Linear"
+    },
+    {
+      "id": "em-badge",
+      "requirement": "recommended",
+      "reason": "Shows profile identity in menu bar"
+    }
   ],
   "skills": [
-    { "id": "em-leadership", "requirement": "recommended" }
+    {
+      "id": "em-leadership",
+      "requirement": "recommended"
+    }
   ],
   "quickActions": [
-    { "id": "one-on-one-prep", "requirement": "recommended" },
-    { "id": "sprint-retro", "requirement": "recommended" },
-    { "id": "performance-review", "requirement": "recommended" },
-    { "id": "stakeholder-update", "requirement": "recommended" },
-    { "id": "team-health", "requirement": "recommended" }
+    {
+      "id": "one-on-one-prep",
+      "requirement": "recommended"
+    },
+    {
+      "id": "sprint-retro",
+      "requirement": "recommended"
+    },
+    {
+      "id": "performance-review",
+      "requirement": "recommended"
+    },
+    {
+      "id": "stakeholder-update",
+      "requirement": "recommended"
+    },
+    {
+      "id": "team-health",
+      "requirement": "recommended"
+    }
   ],
   "registries": [],
   "settings": []
