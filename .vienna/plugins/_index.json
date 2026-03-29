@@ -12,7 +12,7 @@
     "author": { "name": "Drift Team" }
   },
   {
-    "id": "em_badge",
+    "id": "em-badge",
     "name": "Engineering Manager",
     "description": "Tools for engineering leadership",
     "version": "0.0.1",

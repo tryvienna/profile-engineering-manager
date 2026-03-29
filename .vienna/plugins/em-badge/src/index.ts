@@ -3,7 +3,7 @@ import { ProfileMenuBarIcon } from './ui/MenuBarIcon';
 import { ProfileMenuBarContent } from './ui/MenuBarContent';
 
 export const profilePlugin = definePlugin({
-  id: 'em_badge',
+  id: 'em-badge',
   name: 'Engineering Manager',
   description: 'Tools for engineering leadership',
   icon: { text: '📊' },
