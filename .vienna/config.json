@@ -21,7 +21,7 @@
       "reason": "Sprint analytics and team velocity tracking with Linear"
     },
     {
-      "id": "em-badge",
+      "id": "em_badge",
       "requirement": "recommended",
       "reason": "Shows profile identity in menu bar"
     }
