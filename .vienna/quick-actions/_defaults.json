@@ -1,0 +1,4 @@
+{
+  "version": 1,
+  "defaults": ["one-on-one-prep", "sprint-retro", "performance-review", "stakeholder-update", "team-health"]
+}

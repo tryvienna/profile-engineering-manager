@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "name": "Engineering Manager",
+  "description": "Quick actions and tools for engineering managers — 1:1 prep, sprint retros, performance reviews, team metrics, and stakeholder communication.",
+  "author": { "name": "Vienna Team", "url": "https://tryvienna.com" },
+  "icon": "📊",
+  "tags": ["engineering-management", "leadership", "sprints", "1on1", "team"],
+  "plugins": [
+    { "id": "linear", "requirement": "recommended", "reason": "Sprint analytics and team velocity tracking with Linear" }
+  ],
+  "skills": [
+    { "id": "getting-started", "requirement": "recommended" }
+  ],
+  "quickActions": [
+    { "id": "one-on-one-prep", "requirement": "recommended" },
+    { "id": "sprint-retro", "requirement": "recommended" },
+    { "id": "performance-review", "requirement": "recommended" },
+    { "id": "stakeholder-update", "requirement": "recommended" },
+    { "id": "team-health", "requirement": "recommended" }
+  ],
+  "registries": [],
+  "settings": []
+}

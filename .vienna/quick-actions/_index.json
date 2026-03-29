@@ -1,0 +1,127 @@
+[
+  {
+    "id": "one-on-one-prep",
+    "label": "Prepare my 1:1s",
+    "icon": "🤝",
+    "description": "Prep for 1:1 meetings with direct reports",
+    "author": { "name": "Vienna Team" },
+    "tags": ["1on1", "management", "people"],
+    "options": [
+      {
+        "id": "1on1-full-prep",
+        "label": "Full prep for all this week's 1:1s",
+        "prompt": "Prepare my 1:1s for this week. For each direct report, pull their recent PRs, completed and in-progress tickets, and any blockers. Summarize what they've been working on, flag anything that might need discussion, and suggest talking points."
+      },
+      {
+        "id": "1on1-single",
+        "label": "Deep prep for one person",
+        "prompt": "Prepare a deep 1:1 prep for the person I'll name. Pull their last 2 weeks of activity: PRs (merged, open, review comments), tickets (completed, in progress, blocked), and any mentions in team channels. Identify patterns and suggest 3-5 discussion topics."
+      },
+      {
+        "id": "1on1-growth",
+        "label": "Career growth discussion prep",
+        "prompt": "Help me prepare a career growth discussion for a direct report. I'll describe their current level and recent work — suggest specific growth areas, stretch projects, and concrete next steps we could discuss."
+      }
+    ]
+  },
+  {
+    "id": "sprint-retro",
+    "label": "Generate sprint retro",
+    "icon": "🔄",
+    "description": "Sprint retrospective summaries and insights",
+    "author": { "name": "Vienna Team" },
+    "tags": ["sprint", "retro", "agile"],
+    "options": [
+      {
+        "id": "retro-full",
+        "label": "Full retro summary from data",
+        "prompt": "Generate a sprint retrospective summary. Pull the sprint's ticket data: what was planned vs completed, velocity compared to last 3 sprints, and cycle time distribution. Organize into: what went well, what didn't, and what to change next sprint."
+      },
+      {
+        "id": "retro-velocity",
+        "label": "Velocity and predictability trends",
+        "prompt": "Analyze our sprint velocity and predictability over the last 5 sprints. Show the trend, identify spikes or dips, and correlate with team events (holidays, on-call rotations, new joiners). Suggest a realistic commitment for next sprint."
+      },
+      {
+        "id": "retro-blockers",
+        "label": "What slowed us down?",
+        "prompt": "Analyze what slowed the team down this sprint. Look at: tickets that sat in review too long, blocked items, scope changes mid-sprint, and unplanned work. Quantify the impact and suggest process changes."
+      }
+    ]
+  },
+  {
+    "id": "performance-review",
+    "label": "Draft performance review",
+    "icon": "📝",
+    "description": "Performance review drafts from activity data",
+    "author": { "name": "Vienna Team" },
+    "tags": ["performance", "review", "people"],
+    "options": [
+      {
+        "id": "perf-review-draft",
+        "label": "Draft review from contributions",
+        "prompt": "Draft a performance review for a team member I'll name. Pull their contributions over the review period: PRs merged, issues resolved, code review activity, and significant projects. Write balanced feedback covering: impact, technical growth, collaboration, and areas for development."
+      },
+      {
+        "id": "perf-review-calibration",
+        "label": "Compare team contributions for calibration",
+        "prompt": "Help me prepare for calibration. Summarize each team member's contributions over the last quarter: key projects, impact metrics, code review participation, and mentoring. Present side by side so I can check my ratings are consistent."
+      },
+      {
+        "id": "perf-review-goals",
+        "label": "Suggest goals for next review cycle",
+        "prompt": "Based on this team member's recent work and growth areas, suggest 3-5 specific, measurable goals for the next review cycle. Include a mix of technical and leadership goals appropriate for their level."
+      }
+    ]
+  },
+  {
+    "id": "stakeholder-update",
+    "label": "Write stakeholder update",
+    "icon": "📧",
+    "description": "Engineering progress updates for stakeholders",
+    "author": { "name": "Vienna Team" },
+    "tags": ["communication", "stakeholders", "updates"],
+    "options": [
+      {
+        "id": "stakeholder-weekly",
+        "label": "Weekly engineering update email",
+        "prompt": "Draft a weekly engineering update for stakeholders. Pull this week's: features shipped, PRs merged, bugs fixed, and in-progress work. Write in a non-technical tone suitable for product and executive stakeholders. Include: highlights, risks/blockers, and next week's priorities."
+      },
+      {
+        "id": "stakeholder-roadmap",
+        "label": "Quarterly roadmap progress",
+        "prompt": "Summarize progress against our quarterly roadmap. For each planned initiative: current status (on track/at risk/blocked), key milestones completed, and expected completion date. Flag anything that needs escalation."
+      },
+      {
+        "id": "stakeholder-incident",
+        "label": "Executive incident summary",
+        "prompt": "Draft an executive-level incident summary. I'll describe what happened — write a clear, non-technical summary covering: what happened, customer impact, resolution, and preventive measures. Keep it under 200 words."
+      }
+    ]
+  },
+  {
+    "id": "team-health",
+    "label": "Check team health",
+    "icon": "💪",
+    "description": "Team workload, review distribution, and bus factor analysis",
+    "author": { "name": "Vienna Team" },
+    "tags": ["team", "health", "workload"],
+    "options": [
+      {
+        "id": "health-review-load",
+        "label": "Who has the most review load?",
+        "prompt": "Analyze the team's code review distribution. Who has the most pending reviews? Who's doing the most reviewing? Identify imbalances and suggest how to redistribute. Include average review turnaround time per person."
+      },
+      {
+        "id": "health-bus-factor",
+        "label": "Bus factor analysis",
+        "prompt": "Analyze our codebase's bus factor. Which areas of the code are only touched by one person? Identify knowledge silos and suggest pairing or review assignments to spread knowledge. Rank by risk: critical path code with single owner is highest priority."
+      },
+      {
+        "id": "health-workload",
+        "label": "Workload distribution check",
+        "prompt": "Check the team's workload distribution this sprint. Compare: assigned story points, PRs in progress, and review load per person. Flag anyone who looks overloaded or underutilized, and suggest rebalancing."
+      }
+    ]
+  }
+]
