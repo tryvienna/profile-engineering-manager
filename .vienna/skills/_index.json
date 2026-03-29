@@ -1,13 +1,13 @@
 [
   {
-    "id": "getting-started",
-    "name": "Getting Started",
-    "description": "Introduction to using Vienna profiles — how to customize and share",
+    "id": "em-leadership",
+    "name": "EM Leadership",
+    "description": "Engineering management — team health, 1:1s, performance, and stakeholder communication",
     "version": "1.0.0",
     "source": "inline",
-    "icon": "👋",
-    "category": "Onboarding",
-    "tags": ["profiles", "onboarding", "getting-started"],
+    "icon": "📊",
+    "category": "Leadership",
+    "tags": ["management", "leadership", "1on1", "team"],
     "author": { "name": "Vienna Team" }
   }
 ]

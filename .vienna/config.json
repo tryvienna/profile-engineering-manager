@@ -6,10 +6,11 @@
   "icon": "📊",
   "tags": ["engineering-management", "leadership", "sprints", "1on1", "team"],
   "plugins": [
-    { "id": "linear", "requirement": "recommended", "reason": "Sprint analytics and team velocity tracking with Linear" }
+    { "id": "linear", "requirement": "recommended", "reason": "Sprint analytics and team velocity tracking with Linear" },
+    { "id": "profile_badge", "requirement": "recommended", "reason": "Shows active profile in the menu bar" }
   ],
   "skills": [
-    { "id": "getting-started", "requirement": "recommended" }
+    { "id": "em-leadership", "requirement": "recommended" }
   ],
   "quickActions": [
     { "id": "one-on-one-prep", "requirement": "recommended" },
